@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView"
+        android:id="@+id/aliens_card"
         android:layout_width="match_parent"
         android:layout_height="105dp"
         android:layout_marginHorizontal="35dp"
@@ -30,10 +30,10 @@
         android:textColor="@color/black"
         android:textSize="30sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/cardView"
-        app:layout_constraintEnd_toEndOf="@+id/cardView"
-        app:layout_constraintStart_toStartOf="@+id/cardView"
-        app:layout_constraintTop_toTopOf="@+id/cardView">
+        app:layout_constraintBottom_toBottomOf="@+id/aliens_card"
+        app:layout_constraintEnd_toEndOf="@+id/aliens_card"
+        app:layout_constraintStart_toStartOf="@+id/aliens_card"
+        app:layout_constraintTop_toTopOf="@+id/aliens_card">
 
     </TextView>
 
@@ -45,7 +45,7 @@
         app:layout_constraintGuide_percent="0.5"/>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView2"
+        android:id="@+id/character_card"
         android:layout_width="match_parent"
         android:layout_height="105dp"
         android:layout_marginHorizontal="35dp"
@@ -67,10 +67,10 @@
         android:textColor="@color/black"
         android:textSize="30sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/cardView2"
-        app:layout_constraintEnd_toEndOf="@+id/cardView2"
-        app:layout_constraintStart_toStartOf="@+id/cardView2"
-        app:layout_constraintTop_toTopOf="@+id/cardView2">
+        app:layout_constraintBottom_toBottomOf="@+id/character_card"
+        app:layout_constraintEnd_toEndOf="@+id/character_card"
+        app:layout_constraintStart_toStartOf="@+id/character_card"
+        app:layout_constraintTop_toTopOf="@+id/character_card">
 
     </TextView>
 
